@@ -1,1 +1,75 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+}
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+header ul li a {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #424242;
+  transition: all 0.5s;
+}
+
+header .callnumbers {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+header .callnumbers span {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+header ul li a:hover {
+  color: #8B9D83;
+}
+
+@media (max-width: 1100px) {
+  header {
+    padding: 40px 0;
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+  }
+}
+@media (max-width: 550px) {
+  header ul {
+    display: none;
+  }
+  header .callnumbers img {
+    width: 20px;
+  }
+  header .callnumbers span {
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=style.css.map */
