@@ -176,4 +176,110 @@ header ul li a:hover {
   .hero .link {
     margin: auto;
   }
+}
+.transparent {
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.transparent .top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.transparent .top h2 {
+  font-family: Roboto;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #424242;
+  width: 50%;
+}
+.transparent .top .topP {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  width: 60%;
+  color: #424242;
+}
+.transparent .bottom .wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.transparent .bottom {
+  display: flex;
+  flex-wrap: wrap;
+}
+.transparent .bottom .box {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.transparent .box span {
+  font-family: Roboto;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 70px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #8b9d83;
+}
+.transparent .box h3 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #424242;
+}
+.transparent .box p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #424242;
+}
+.transparent .text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media (max-width: 1200px) {
+  .transparent .top h2 {
+    font-size: clamp(14px, 3vw, 48px);
+    width: auto;
+  }
+  .transparent .top .topP {
+    font-size: clamp(14px, 3vw, 32px);
+    width: auto;
+  }
+  .transparent .bottom span {
+    font-size: clamp(24px, 4vw, 40px);
+  }
+  .transparent .bottom h3 {
+    font-size: clamp(24px, 4vw, 40px);
+  }
+  .transparent .bottom p {
+    font-size: clamp(14px, 3vw, 18px);
+  }
+}
+@media (max-width: 700px) {
+  .transparent .bottom .box {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
