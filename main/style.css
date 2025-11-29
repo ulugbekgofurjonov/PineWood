@@ -282,4 +282,87 @@ header ul li a:hover {
   .transparent .bottom .box {
     width: 100%;
   }
+}
+.region {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.region .top {
+  display: flex;
+  align-items: center;
+}
+.region .top h2 {
+  font-family: Roboto;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #424242;
+  width: 60%;
+}
+.region .top h2 span {
+  color: #8b9d83;
+}
+.region .top p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #424242;
+  width: 50%;
+}
+.region .bottom {
+  display: flex;
+}
+.region .bottom .box {
+  width: 40%;
+  margin: auto;
+  border: 4px solid #8b9d83;
+  border-top-left-radius: 15.69px;
+  border-top-right-radius: 15.69px;
+  border-bottom-right-radius: 47.06px;
+  border-bottom-left-radius: 47.06px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.region .bottom .box img {
+  width: 100%;
+}
+.region .bottom .texts {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.region .bottom .texts span {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #424242;
+}
+.region .bottom .texts a {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 100%;
+  padding: 27px 34px;
+  border-radius: 67px;
+  letter-spacing: 0%;
+  color: #ffffff;
+  box-shadow: -3.46px -3.46px 17.28px 0px #ffffff;
+  box-shadow: 2.59px 2.59px 17.28px 0px rgba(85, 93, 36, 0.3019607843);
+  background-color: #8b9d83;
+}
+.region .bottom .texts a:hover {
+  background-color: rgba(139, 157, 131, 0.737254902);
 }/*# sourceMappingURL=style.css.map */
