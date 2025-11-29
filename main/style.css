@@ -365,4 +365,35 @@ header ul li a:hover {
 }
 .region .bottom .texts a:hover {
   background-color: rgba(139, 157, 131, 0.737254902);
+}
+
+@media (max-width: 900px) {
+  .region .top {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .region .top h2 {
+    width: 100%;
+    font-size: clamp(24px, 3vw, 48px);
+    text-align: center;
+  }
+  .region .top p {
+    width: 100%;
+    font-size: clamp(16px, 2.5vw, 28px);
+    text-align: center;
+  }
+  .region .bottom {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .region .bottom .box {
+    width: 100%;
+  }
+  .region .bottom .box span {
+    font-size: clamp(12px, 2.5vw, 16px);
+  }
+  .region .bottom .box a {
+    font-size: clamp(12px, 2.5vw, 16px);
+    padding: clamp(15px, 3vw, 27px) clamp(20px, 4vw, 34px);
+  }
 }/*# sourceMappingURL=style.css.map */
