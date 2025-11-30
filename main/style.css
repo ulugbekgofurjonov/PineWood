@@ -396,4 +396,98 @@ header ul li a:hover {
     font-size: clamp(12px, 2.5vw, 16px);
     padding: clamp(15px, 3vw, 27px) clamp(20px, 4vw, 34px);
   }
+}
+.uslugi {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 100px 0;
+}
+.uslugi .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.uslugi .top h2 {
+  font-family: Roboto;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #424242;
+  width: 50%;
+}
+.uslugi .top span {
+  color: #8b9d83;
+}
+.uslugi .top p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #424242;
+  width: 40%;
+}
+.uslugi .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.uslugi .bottom .box {
+  width: 20%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 4px solid #8b9d83;
+  border-top-left-radius: 15.69px;
+  border-top-right-radius: 15.69px;
+  border-bottom-right-radius: 47.06px;
+  border-bottom-left-radius: 47.06px;
+  padding-bottom: 20px;
+  align-items: center;
+}
+.uslugi .bottom .box h4 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #424242;
+}
+.uslugi .bottom .box p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #424242;
+  text-align: center;
+  width: 80%;
+}
+.uslugi .bottom .box a {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  background-color: #8b9d83;
+  padding: 20px 25px;
+  border-radius: 67px;
+  display: inline-block;
+  text-align: center;
+  transition: all 0.3s;
+}
+.uslugi .bottom .box a:hover {
+  background-color: rgba(139, 157, 131, 0.7450980392);
+}
+.uslugi .bottom img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
