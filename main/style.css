@@ -625,4 +625,56 @@ header ul li a:hover {
   line-height: 100%;
   letter-spacing: 0%;
   color: #424242;
+}
+
+@media (max-width: 1100px) {
+  .object h2 {
+    width: 100%;
+    font-size: clamp(20px, 4vw, 48px);
+    text-align: center;
+  }
+  .object .box {
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+  .object .box .left {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .object .box .left h3 {
+    font-size: clamp(27px, 4vw, 48px);
+  }
+  .object .box .left img {
+    width: 70%;
+  }
+  .object .box .top img {
+    width: 20%;
+  }
+  .object .box .top h4 {
+    font-size: clamp(16px, 4vw, 28px);
+  }
+  .object .box .top p {
+    font-size: clamp(12px, 4vw, 26px);
+    width: 100%;
+  }
+  .object .box .right {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .object .box .right p {
+    width: 100%;
+    margin: auto;
+    font-size: clamp(12px, 4vw, 24px);
+  }
+  .object .box .right .vopros {
+    font-size: clamp(16px, 4vw, 32px);
+  }
+  .object .box .right .item span {
+    font-size: clamp(12px, 4vw, 24px);
+  }
+  .object .box .right .item img {
+    width: 5%;
+  }
 }/*# sourceMappingURL=style.css.map */
