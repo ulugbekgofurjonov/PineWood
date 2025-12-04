@@ -65,3 +65,31 @@ footer {
     }
   }
 }
+
+@media (max-width: 800px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .item {
+      p {
+        font-size: clamp(18px, 2vw, 16px);
+      }
+      span {
+        font-size: clamp(18px, 2vw, 16px);
+      }
+    }
+    .item2 {
+      ul li a {
+        font-size: clamp(18px, 2vw, 16px);
+      }
+    }
+    .contact {
+      .box {
+        h6 {
+          font-size: clamp(18px, 2vw, 16px);
+        }
+      }
+    }
+  }
+}

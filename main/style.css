@@ -740,4 +740,24 @@ footer .contact h6 {
   line-height: 100%;
   letter-spacing: 0%;
   color: #424242;
+}
+
+@media (max-width: 800px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  footer .item p {
+    font-size: clamp(18px, 2vw, 16px);
+  }
+  footer .item span {
+    font-size: clamp(18px, 2vw, 16px);
+  }
+  footer .item2 ul li a {
+    font-size: clamp(18px, 2vw, 16px);
+  }
+  footer .contact .box h6 {
+    font-size: clamp(18px, 2vw, 16px);
+  }
 }/*# sourceMappingURL=style.css.map */
