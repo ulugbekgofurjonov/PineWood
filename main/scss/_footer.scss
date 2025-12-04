@@ -1,0 +1,67 @@
+@use "variables";
+@use "mixins";
+footer {
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  .item {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: start;
+    p {
+      width: 264;
+      height: 32;
+      top: 5547px;
+      left: 125px;
+      opacity: 1;
+      color: #424242;
+    }
+    span {
+      font-family: Roboto;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 16px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      color: #a49b9b;
+    }
+  }
+  .item2 {
+    display: flex;
+    gap: 20px;
+    ul li {
+      margin-bottom: 10px;
+      a {
+        font-family: Roboto;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #424242;
+      }
+    }
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    .box {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+  .contact {
+    h6 {
+      font-family: Roboto;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 18px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      color: #424242;
+    }
+  }
+}
